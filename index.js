@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
   let listDwarves = []
-  for(let i = 0; i < dwarves.length; i++){
+  for(let i = drawves.length/2 ; i < dwarves.length; i++){
     
     listDwarves.push(`${i+1}. ${dwarves[i]} `)
     
@@ -37,7 +37,7 @@ function findTheCheese (foods) {
   
   for (var i = 0; i < foods.length; i++) {
     
-    if (foods[i] ===  'gouda'|| foods[i]===  'cheddar' || foods[i]==='camembert') {
+    if (foods[i] ===  'gouda'|| foods[i]===  'cheddar' || foods[i]==='camembert' || foods[i]=== 'swiss') {
       return foods[i];
     }
   }
